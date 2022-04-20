@@ -1,0 +1,10 @@
+ 2010  vim hello.py
+ 2012  zip -r webrot.zip .
+ 2013  az webapp deploy --resource-group dev-rg --name webrot --src-path webrot.zip 
+ 2020  pip install flask
+ 2021  python -c "import flask; print(flask.__version__)"
+ 2023  export FLASK_APP=hello
+ 2024  export FLASK_ENV=development
+ 2025  flask run
+ 2028  az webapp config appsettings set     --resource-group dev-rg   --name webrot     --settings SCM_DO_BUILD_DURING_DEPLOYMENT=true
+
